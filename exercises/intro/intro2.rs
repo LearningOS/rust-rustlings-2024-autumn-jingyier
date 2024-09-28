@@ -7,5 +7,5 @@
 
 
 fn main() {
-    println!("Hello Kitty!");
+    println!("Hello Kitty !");
 }
