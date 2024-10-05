@@ -8,6 +8,6 @@
 
 
 fn main() {
-    let mut shopping_list: vec= Vec::new();
+    let mut shopping_list= Vec::new();
     shopping_list.push("milk");
 }
