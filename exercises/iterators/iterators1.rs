@@ -12,9 +12,9 @@
 // I AM NOT DONE
 
 fn main() {
-    let my_fav_fruits = vec!["banana", "custard apple", "avocado", "peach", "raspberry"];
+    let my_fav_fruits: Vec<&str> = vec!["banana", "custard apple", "avocado", "peach", "raspberry"];
 
-    let mut my_iterable_fav_fruits = "fruit";   // TODO: Step 1
+    let mut my_iterable_fav_fruits: &str = "fruit";   // TODO: Step 1
 
     assert_eq!(my_iterable_fav_fruits.next(), Some(&"banana"));
     assert_eq!(my_iterable_fav_fruits.next(), Some(&"custard apple"));     // TODO: Step 2
